@@ -1,2 +1,2 @@
-# temadecasa-PIU
-Tema de casa la PIU. Holovach Maksym 3122B
+# temadecasa-PI
+Primul punct din tema de casa la laborator PIU. Holovach Maksym 3122B
