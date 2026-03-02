@@ -8,11 +8,11 @@
             double tarif_ora;
             double salariu;
 
-            Console.WriteLine("Introduceti tariful pe ora [RON]: ");
+            Console.Write("Introduceti tariful pe ora [RON]: ");
             tarif_ora = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Introduceti numarul de ore lucrate: ");
-            ore_lucrate = Convert.ToInt32(Console.Read());
+            Console.Write("Introduceti numarul de ore lucrate: ");
+            ore_lucrate = Convert.ToInt32(Console.ReadLine());
 
             salariu = tarif_ora * (double)ore_lucrate;
 
@@ -22,7 +22,7 @@
             }
             else
             {
-                Console.WriteLine("Ati lucrat prea puține ore pentru a avea un salariu mare!.");
+                Console.WriteLine("Ati lucrat prea putine ore pentru a avea un salariu mare!.");
             }
         }
     }
